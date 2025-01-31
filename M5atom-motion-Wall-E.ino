@@ -39,7 +39,7 @@
 #define PORT_SDA                  33
 #define PORT_SCL                  23
 
-// PORT C for UktraSonicSensor
+// PORT C for UltraSonicSensor
 #define ULTRASONIC_PORT           22
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel( NUMPIXELS, PIN_RGB,NEO_GRB + NEO_KHZ800);

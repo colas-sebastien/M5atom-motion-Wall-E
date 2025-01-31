@@ -16,9 +16,6 @@ Create your Wall-E thanks to M5atom
 - [Grove Ultrasonic distance sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html)
 - [A bluetooth gamepad supported by BluePad32 for Arduino](https://gitlab.com/ricardoquesada/bluepad32-arduino) 
 
-
-
-
 ![zumo](img/zumo.jpg)
 ![motor](img/motor.jpg)
 ![I2C motor driver](img/i2c_motor.jpg)
@@ -29,5 +26,9 @@ Create your Wall-E thanks to M5atom
 ![Servo Motor](img/servomotor.jpg)
 ![Grove Ultrasonic distance sensor](img/grove-ultrasonic-distance-sensor.jpg)
 ![Steam Controller](img/steam-controller.jpg)
+
+## 3D Print
+
+## Connect everything together
 
 ## Software
