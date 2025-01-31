@@ -4,20 +4,113 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eZgw8Ieda-kZLaANVyQH-3" value="Atomic Motion" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="380" y="220" width="210" height="150" as="geometry" />
+        <mxCell id="eZgw8Ieda-kZLaANVyQH-3" value="Atomic Motion" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;arcSize=7;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="180" y="210" width="330" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="eZgw8Ieda-kZLaANVyQH-2" value="M5Atom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="230" width="110" height="50" as="geometry" />
+        <mxCell id="eZgw8Ieda-kZLaANVyQH-2" value="M5Atom" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="310" y="220" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="eZgw8Ieda-kZLaANVyQH-4" value="Battery 16340" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="290" width="110" height="50" as="geometry" />
+        <mxCell id="eZgw8Ieda-kZLaANVyQH-4" value="Battery 16340" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="310" y="340" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eZgw8Ieda-kZLaANVyQH-5" value="Grove&lt;br&gt;Port B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="230" width="60" height="50" as="geometry" />
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eZgw8Ieda-kZLaANVyQH-5" target="xa-pyWlrc1-aHVce6c8f-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eZgw8Ieda-kZLaANVyQH-6" value="Grove&lt;br&gt;Port C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="290" width="60" height="50" as="geometry" />
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-7" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-6">
+          <mxGeometry x="-0.2667" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZgw8Ieda-kZLaANVyQH-5" value="Grove&lt;br&gt;Port B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="440" y="220" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZgw8Ieda-kZLaANVyQH-6" target="xa-pyWlrc1-aHVce6c8f-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-18" value="GPIO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-17">
+          <mxGeometry x="0.0253" y="-2" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZgw8Ieda-kZLaANVyQH-6" value="Grove&lt;br&gt;Port C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="440" y="320" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-1" target="xa-pyWlrc1-aHVce6c8f-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-25" value="PWM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-22">
+          <mxGeometry x="0.169" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-1" value="Servo Motor S1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-2" target="xa-pyWlrc1-aHVce6c8f-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-26" value="&lt;div&gt;PWM&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-23">
+          <mxGeometry x="0.1241" y="2" relative="1" as="geometry">
+            <mxPoint x="4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-2" value="Servo Motor S2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-3" target="xa-pyWlrc1-aHVce6c8f-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-27" value="PWM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-24">
+          <mxGeometry x="0.1931" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-3" value="Servo Motor S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-4" value="Servo Motor S4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-5" value="Grove I2C Motor Driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-8" value="Pololu Zumo&lt;br&gt;Chassis&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="110" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-11" value="Batteries&lt;br&gt;4xAA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="705" y="225" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-11" target="xa-pyWlrc1-aHVce6c8f-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-10" value="5V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xa-pyWlrc1-aHVce6c8f-9">
+          <mxGeometry x="0.0655" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-12" value="Left Motor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="705" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-13" value="Right Motor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="705" y="170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-5" target="xa-pyWlrc1-aHVce6c8f-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xa-pyWlrc1-aHVce6c8f-5" target="xa-pyWlrc1-aHVce6c8f-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-16" value="Grove UltraSonic Sensor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-19" value="Servo Motor&lt;br&gt; Left Arm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-20" value="Servo Motor&lt;br&gt;Right Arm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xa-pyWlrc1-aHVce6c8f-21" value="Servo MotorHead" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
