@@ -1,4 +1,4 @@
-![M5ZR](img/wall-e-01.jpg)
+![M5Atom Wall-E](img/wall-e-02.jpg)
 
 # M5Atom Wall-E
 
@@ -30,5 +30,6 @@ Create your Wall-E thanks to M5atom
 ## 3D Print
 
 ## Connect everything together
+![Connect everything together](driagram/components.drawio.png)
 
 ## Software
