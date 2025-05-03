@@ -30,12 +30,12 @@ Create your Wall-E thanks to M5atom
 ## 3D Model
 ### FreeCAD
 ![FreeCAD](img/freecad.png)
-You can fonud the FreeCAD model into the *FreeCAD* directory.
+You can found the FreeCAD model into the *FreeCAD* directory.
 
 ### STL
 ![MeshLab](img/MeshLab.png)
 
-You can fonud the FreeCAD model into the *stl* directory.
+You can found the FreeCAD model into the *stl* directory.
 
 ## Connect everything together
 ![Connect everything together](driagram/components.drawio.png)
