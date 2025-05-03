@@ -1,6 +1,6 @@
-![M5Atom Wall-E](img/wall-e-02.jpg)
+![M5Atom WALL-E](img/wall-e-02.jpg)
 
-# M5Atom Wall-E
+# M5Atom WALL-E
 
 Create your Wall-E thanks to M5atom
 
@@ -27,9 +27,36 @@ Create your Wall-E thanks to M5atom
 ![Grove Ultrasonic distance sensor](img/grove-ultrasonic-distance-sensor.jpg)
 ![Steam Controller](img/steam-controller.jpg)
 
-## 3D Print
+## 3D Model
+### FreeCAD
+![FreeCAD](img/freecad.png)
+You can fonud the FreeCAD model into the *FreeCAD* directory.
+
+### STL
+![MeshLab](img/MeshLab.png)
+
+You can fonud the FreeCAD model into the *stl* directory.
 
 ## Connect everything together
 ![Connect everything together](driagram/components.drawio.png)
+### Atomic Motion Modification (optional)
+![Atom Modification](img/atom-modif-0.jpg)
+To power on/off WALL-E and easily replace the battery the following modifications can be on the Atomic module
+- Add an external battery holder
+- Add an external switch
+
+![Atom Modification](img/atom-modif-1.jpg)
+
+### Inside WALL-E
+![Atom Modification](img/connect-everything.jpg)
 
 ## Software
+- Install thanks to Board Manager: 
+    - BluePad for Arduino [BluePad for Arduino](https://bluepad32.readthedocs.io/en/latest/plat_arduino/)
+    - M5Stack
+- Install thanks to Library Manager:
+    - Grove Motor Driver TB6612FNG
+    - Grove Ultrasonic Ranger
+    - Adafruit NeoPixel
+    - M5Atom    
+- Select for Board: *ESP32 + Bluepad32 Arduino / M5Stack-ATOM*

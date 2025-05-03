@@ -9,7 +9,6 @@
  */
 
 #include <M5Atom.h>
-#include <SPIFFS.h>
 #include <Grove_Motor_Driver_TB6612FNG.h>
 #include <Ultrasonic.h>
 #include <Wire.h>
